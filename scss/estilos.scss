@@ -1,85 +1,91 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: #005148;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navbar{
+.navbar {
     background-color: #01415B;
+    .navbar-brand {
+        margin-right: 285px;
+    }
 }
 
-.navbar-brand{
-    margin-right: 285px;
-}
 
-.main-index{
+.main-index {
     color: #CCEA8D;
 }
 
-.h2-index{
+.h2-index {
     text-align: center;
     margin-top: 50px;
 }
-.p-index{
+.p-index {
     text-align: center;
     margin-top: 40px;
 }
-.imagen-index{
+
+
+.imagen-index {
     margin-left: 190px;
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     background-color: #01415B;
+    .boton-footer {
+        font-size: 20px;
+    }
+
 }
-.boton-footer{
-    font-size: 20px;
-}
-.redes{
+
+
+.redes {
     text-decoration: none;
     font-size: xx-large;
     margin-left: 8px;
-}
-.redes :hover{
-    color: red;
+
+    :hover {
+        color: red;
+    }
 }
 
-.formu{
+.formu {
     margin-top: 70px;
     margin-bottom: 100px;
 }
 
-.imagen-galeria{
+.imagen-galeria {
     width: 600px;
     height: 400px;
     margin: 20px;
     border: black solid;
 }
 
-.imagen-galeria:hover{
+.imagen-galeria:hover {
     transform: scale(1.06);
 }
 
-.reservaciones{
+.reservaciones {
     margin: 100px;
 }
 
-.imagen-menu{
+.imagen-menu {
     width: 400px;
     height: 200px;
     margin: 20px;
     border: black solid;
 }
-.imagen-menu:hover{
+
+.imagen-menu:hover {
     transform: scale(1.17);
 }
 
-
-.texto-menu{
+.texto-menu {
     margin-left: 50px;
     color: #CCEA8D;
 }

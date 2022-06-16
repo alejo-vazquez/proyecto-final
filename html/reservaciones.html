@@ -7,40 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.scss">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <script src="https://kit.fontawesome.com/1132bdb50f.js" crossorigin="anonymous"></script>
     <title>El Buen Gusto</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="index.html">El Buen Gusto</a>
+        <a class="navbar-brand" href="/html/index.html">El Buen Gusto</a>
         <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="/html/index.html">Inicio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="/html/menu.html">Menu</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="reservaciones.html">Reservaciones</a>
+            <a class="nav-link" href="/html/reservaciones.html">Reservaciones</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="galeria.html">Galeria</a>
+            <a class="nav-link" href="/html/galeria.html">Galeria</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contactanos.html" >Contactanos</i></a>
+            <a class="nav-link" href="/html/contactanos.html" >Contactanos</i></a>
         </li>
         </ul>
     </nav>
 
-    <div class="row row-cols-1 container">
-        <div class="col"><img src="img/Codorniz-GRANDE-menu.jpg" alt="" class="imagen-menu"> <br> <b class="texto-menu">Codorniz Escabechada</b><br><b class="texto-menu">Una receta para todo el año, no solo para la temporada de caza. ¡Toma nota y date un homenaje!</b></div>
-        <div class="col"><img src="img/rollo-MEDIANA menu.jpg" alt="" class="imagen-menu"><br> <b class="texto-menu">Rollito de Lenguado</b><br><b class="texto-menu">Esta receta esta elaborada con uno de los pescados más saludables de nuestra gastronomía, el lenguado.</b></div>
-        <div class="col"><img src="img/Merluza-rellena-de-gambas-MEDIANA-menu.jpg" alt="" class="imagen-menu"><br> <b class="texto-menu">Merluza Rellena de Gambas</b><br><b class="texto-menu">Una receta original e ideal para estas fiestas navideñas.</b></div>
-        <div class="col"><img src="img/Salmonete-sobre-risotto-de-remolacha menu.jpg" alt="" class="imagen-menu"><br><b class="texto-menu">Salmonetes a la plancha sobre Risotto de Remolacha</b><br><b class="texto-menu">Este delicioso arroz cremoso que se deshace en la boca , de textura untuosa y suave.</b></div>
-        <div class="col"><img src="img/Cardo-con-crema-de-jamón-MEDIANA menu.jpg" alt="" class="imagen-menu"><br><b class="texto-menu">Cardo con Crema de Jamón y Champiñones</b><br><b class="texto-menu">Un plato ligero y muy sabroso. Perfecto como entrante y con el que seguro sorprenderás.</b></div>
-    </div>
+    <div class="container reservaciones">
+    <h1>Reservar</h1>
+    <form > 
+        <input class="form-control" type="date" placeholder="select datetime" required>
+    </form>
     <br>
+    <select class="form-control">
+        <option>Mesas Interiores</option>
+        <option>Mesas Exteriores</option>
+    </select>
+    <br>
+    <input type="submit" value="enviar" class="btn btn-primary">
+    </div>
+    <br><br><br>
 
     <footer>
         <p>Mail: alejovazquez276@gmail.com <br>
