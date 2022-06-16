@@ -72,8 +72,7 @@ footer {
     :hover {
         color: red;
         @extend .redes;
-        color: map-get($map: $mapa1, $key:primario ); @extend .redes;
-    color: map-get($map: $mapa1, $key:primario );
+        color: map-get($map: $mapa1, $key:primario );
     }
 }
 
@@ -89,10 +88,8 @@ footer {
 }
 
 .imagen-galeria {
-    width: 600px;
-    height: 400px;
     margin: 20px;
-    border: black solid;
+    @include sizes(600px, 400px, map-get($map: $mapa1, $key:secundario ) solid);
 }
 
 .imagen-galeria:hover {
