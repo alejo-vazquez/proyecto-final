@@ -1,7 +1,7 @@
 {
   "name": "desafio-proyecto-final-alejo-vazquez-de-novoa",
   "version": "1.0.0",
-  "description": "",
+  "description": "este es un desafio echo para coder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

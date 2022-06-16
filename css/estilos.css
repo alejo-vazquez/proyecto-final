@@ -1,71 +1,92 @@
 /*paleta*/
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 body {
   background-color: #019587;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .navbar {
-  background-color: #01415B; }
-  .navbar .navbar-brand {
-    margin-right: 285px; }
+  background-color: #01415B;
+}
+.navbar .navbar-brand {
+  margin-right: 285px;
+}
 
 .main-index {
-  color: #CCEA8D; }
+  color: #CCEA8D;
+}
 
 .h2-index {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .p-index {
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 40px;
+}
 
 .imagen-index {
   margin-left: 190px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 footer {
-  background-color: #01415B; }
-  footer .boton-footer {
-    font-size: 20px; }
+  background-color: #01415B;
+}
+footer .boton-footer {
+  font-size: 20px;
+}
 
 .redes, .redes :hover {
   text-decoration: none;
   font-size: xx-large;
-  margin-left: 8px; }
-  .redes :hover {
-    color: red;
-    color: red;
-    color: red; }
+  margin-left: 8px;
+}
+.redes :hover {
+  color: red;
+  color: red;
+  color: red;
+}
 
 .formu {
   margin-top: 70px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+}
 
 .imagen-galeria {
   width: 600px;
   height: 400px;
   margin: 20px;
-  border: black solid; }
+  border: black solid;
+}
 
 .imagen-galeria:hover {
-  transform: scale(1.06); }
+  transform: scale(1.06);
+}
 
 .reservaciones {
-  margin: 100px; }
+  margin: 100px;
+}
 
 .imagen-menu {
   width: 400px;
   height: 200px;
   border: black solid;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .imagen-menu:hover {
-  transform: scale(1.17); }
+  transform: scale(1.17);
+}
 
 .texto-menu {
   margin-left: 50px;
-  color: #CCEA8D; }
+  color: #CCEA8D;
+}
+
+/*# sourceMappingURL=estilos.css.map */
