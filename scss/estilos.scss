@@ -1,15 +1,37 @@
+/*paleta*/ 
+$color1:#01415B;
+$color2:#005148;
+$color3:#019587;
+$color4:#A6BC09;
+$color5:#CCEA8D; 
+
+
+$mapa1: (
+    primario :red,
+    secundario:black,
+
+);
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    background-color: #005148;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+$animal: perro;
+body{
+    @if $animal == perro {
+        background-color: $color3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    @else if $animal == gato{
+        background-color: $color2;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 .navbar {
-    background-color: #01415B;
+    background-color: $color1;
     .navbar-brand {
         margin-right: 285px;
     }
@@ -17,7 +39,7 @@ body {
 
 
 .main-index {
-    color: #CCEA8D;
+    color: $color5;
 }
 
 .h2-index {
@@ -36,7 +58,7 @@ body {
 }
 
 footer {
-    background-color: #01415B;
+    background-color: $color1;
     .boton-footer {
         font-size: 20px;
     }
@@ -51,12 +73,21 @@ footer {
 
     :hover {
         color: red;
+        @extend .redes;
+        color: map-get($map: $mapa1, $key:primario ); @extend .redes;
+    color: map-get($map: $mapa1, $key:primario );
     }
 }
 
 .formu {
     margin-top: 70px;
     margin-bottom: 100px;
+}
+
+@mixin sizes ($width, $height, $border) {
+    width: $width;
+    height: $height;
+    border: $border;
 }
 
 .imagen-galeria {
@@ -75,10 +106,8 @@ footer {
 }
 
 .imagen-menu {
-    width: 400px;
-    height: 200px;
+    @include sizes(400px, 200px,map-get($map: $mapa1, $key:secundario ) solid);
     margin: 20px;
-    border: black solid;
 }
 
 .imagen-menu:hover {
@@ -87,5 +116,5 @@ footer {
 
 .texto-menu {
     margin-left: 50px;
-    color: #CCEA8D;
+    color: $color5;
 }

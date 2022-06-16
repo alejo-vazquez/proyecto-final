@@ -1,9 +1,10 @@
+/*paleta*/
 * {
   margin: 0px;
   padding: 0px; }
 
 body {
-  background-color: #005148;
+  background-color: #019587;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .navbar {
@@ -31,11 +32,13 @@ footer {
   footer .boton-footer {
     font-size: 20px; }
 
-.redes {
+.redes, .redes :hover {
   text-decoration: none;
   font-size: xx-large;
   margin-left: 8px; }
   .redes :hover {
+    color: red;
+    color: red;
     color: red; }
 
 .formu {
@@ -57,8 +60,8 @@ footer {
 .imagen-menu {
   width: 400px;
   height: 200px;
-  margin: 20px;
-  border: black solid; }
+  border: black solid;
+  margin: 20px; }
 
 .imagen-menu:hover {
   transform: scale(1.17); }
