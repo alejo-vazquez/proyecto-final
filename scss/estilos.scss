@@ -51,7 +51,7 @@ body{
 
 
 .imagen-index {
-    margin-left: 190px;
+
     margin-bottom: 20px;
 }
 
@@ -67,10 +67,9 @@ footer {
 .redes {
     text-decoration: none;
     font-size: xx-large;
-    margin-left: 200px;    
 
     :hover {
-        color: red;
+        
         @extend .redes;
         color: map-get($map: $mapa1, $key:primario );
     }
@@ -88,13 +87,15 @@ footer {
 }
 
 .imagen-galeria {
-    margin: 20px;
+max-width: 500px;
+max-height: 100%;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
     @include sizes(600px, 400px, map-get($map: $mapa1, $key:secundario ) solid);
 }
 
-.imagen-galeria:hover {
-    transform: scale(1.06);
-}
+
 
 .reservaciones {
     margin: 100px;
@@ -112,4 +113,8 @@ footer {
 .texto-menu {
     margin-left: 50px;
     color: $color5;
+}
+footer{
+    max-width: 100%;
+    max-height: 100%;
 }
