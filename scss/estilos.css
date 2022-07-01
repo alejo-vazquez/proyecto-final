@@ -41,11 +41,13 @@ footer .boton-footer {
   font-size: 20px;
 }
 
-.redes, .redes :hover {
+.redes {
   text-decoration: none;
   font-size: xx-large;
+  margin-top: 10px;
 }
 .redes :hover {
+  text-decoration: none;
   color: red;
 }
 
@@ -55,14 +57,16 @@ footer .boton-footer {
 }
 
 .imagen-galeria {
-  max-width: 500px;
-  max-height: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  max-width: 100%;
   width: 600px;
   height: 400px;
   border: black solid;
+}
+
+.imagenes-gale {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .reservaciones {
@@ -76,16 +80,50 @@ footer .boton-footer {
   margin: 20px;
 }
 
+.menuflex {
+  display: flex;
+  flex-direction: column;
+}
+
 .imagen-menu:hover {
   transform: scale(1.17);
 }
 
 .texto-menu {
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
   color: #CCEA8D;
 }
 
+.texto-meno {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: #CCEA8D;
+  -webkit-text-decoration: underline solid black 3px;
+          text-decoration: underline solid black 3px;
+}
+
+.boton-reserva {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-contacto {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
 footer {
-  max-width: 100%;
-  max-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footerinfo {
+  margin-top: 10px;
+}
+
+.footercopy {
+  margin-top: 10px;
 }/*# sourceMappingURL=estilos.css.map */
