@@ -68,6 +68,9 @@ footer {
     text-decoration: none;
     font-size: xx-large;
     margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: left;
 
     :hover {
         text-decoration: none;
@@ -88,7 +91,7 @@ footer {
 
 .imagen-galeria {
     max-width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     @include sizes(600px, 400px, map-get($map: $mapa1, $key:secundario ) solid);
 }
 
@@ -141,16 +144,26 @@ footer {
     gap: 15px;
 }
 
+.text-center{
+    margin-top: 10px;
+    
+}
+
 footer{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 
 .footerinfo{
     margin-top: 10px;
+    display: flex;
+    justify-content: end;
 }
 
 .footercopy{
     margin-top: 10px;
+    display: flex; justify-content: center;
 }
